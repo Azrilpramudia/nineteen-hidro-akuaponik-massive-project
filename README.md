@@ -95,11 +95,11 @@ Visual Studio Code
 
 - Clone Projek Dengan SSH ( Direkomendasikan menggunakan SSH )
 
-  > `git@github.com:uninus-opensource/uninus-himatif.git`
+  > `https://github.com/Azrilpramudia/nineteen-hidro-akuaponik-massive-project.git`
 
 - Clone Projek Dengan HTTPS
 
-  > `https://github.com/uninus-opensource/uninus-himatif.git`
+  > `https://github.com/Azrilpramudia/nineteen-hidro-akuaponik-massive-project.git`
 
 ## Memasang _Dependency_
 
