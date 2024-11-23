@@ -19,23 +19,20 @@ function Navbar() {
 
         {/* Menu Items */}
         <div className="hidden md:flex space-x-9">
-          <a href="#" className="text-red-600 font-medium hover:underline">
+          <a href="#" className="font-medium hover:text-red-600 py-1">
             Home
           </a>
-          <a href="#" className="font-medium hover:underline">
-            Product
-          </a>
-          <a href="#" className="font-medium hover:underline">
+          <a href="#" className="font-medium hover:text-red-600 py-1">
             Service
           </a>
-          <a href="#" className="font-medium hover:underline">
-            FAQs
+          <a href="#" className="font-medium hover:text-red-600 py-1">
+            Article
           </a>
-          <a href="#" className="font-medium hover:underline">
+          <a href="#" className="font-medium hover:text-red-600 py-1">
             About Me
           </a>
           <a href="#">
-            <button className="text-white font-bold bg-blue-600 hover:bg-slate-600">
+            <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-1 px-4 border border-blue-500 hover:border-transparent rounded">
               Sign Up
             </button>
           </a>
