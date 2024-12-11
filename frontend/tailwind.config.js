@@ -7,9 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Roboto: ['Roboto'],         
-        Montserrat: ['Montserrat'],         
-      }
+        roboto: ['Roboto', 'sans-serif'],       // Roboto
+        montserrat: ['Montserrat'], // Montserrat
+        poppins: ['Poppins']
+      },
     },
   },
   plugins: [],

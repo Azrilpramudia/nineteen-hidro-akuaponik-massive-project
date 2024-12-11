@@ -20,7 +20,7 @@ const Navbar = () => {
                 alt="Brand Logo"
                 className="h-10 w-10 object-cover"
               />
-              <span className="ml-2 text-xl font-roboto font-bold text-gray-800">
+              <span className="ml-2 text-xl font-montserrat font-bold text-gray-800">
                 HidroAkuaponik
               </span>
             </a>
@@ -31,31 +31,31 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-4">
               <a
                 href="/"
-                className="text-gray-800 hover:text-orange-500 px-3 py-2 rounded-md text-md font-medium"
+                className="text-gray-800 hover:text-orange-500 px-3 py-2 rounded-md text-lg font-medium"
               >
                 Home
               </a>
               <a
                 href="/services"
-                className="text-gray-800 hover:text-orange-500 px-3 py-2 rounded-md text-md font-medium"
+                className="text-gray-800 hover:text-orange-500 px-3 py-2 rounded-md text-lg font-medium"
               >
                 Services
               </a>
               <a
                 href="/article"
-                className="text-gray-800 hover:text-orange-500 px-3 py-2 rounded-md text-md font-medium"
+                className="text-gray-800 hover:text-orange-500 px-3 py-2 rounded-md text-lg font-medium"
               >
                 Article
               </a>
               <a
                 href="/about"
-                className="text-gray-800 hover:text-orange-500 px-3 py-2 rounded-md text-md font-medium"
+                className="text-gray-800 hover:text-orange-500 px-3 py-2 rounded-md text-lg font-medium"
               >
                 About
               </a>
               <a
                 href="/contact"
-                className="text-gray-800 hover:text-orange-500 px-3 py-2 rounded-md text-md font-medium"
+                className="text-gray-800 hover:text-orange-500 px-3 py-2 rounded-md text-lg font-medium"
               >
                 Contact
               </a>
