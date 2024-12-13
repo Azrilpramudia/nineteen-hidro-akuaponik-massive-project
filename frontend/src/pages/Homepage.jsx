@@ -22,9 +22,11 @@ const Homepage = () => {
             <br />
             hidroponik dan akuaponik
           </p>
-          <button className="mt-6 px-8 py-3 bg-yellow-500 text-white rounded-md hover:bg-yellow-600 font-montserrat">
-            Learn More
-          </button>
+          <Link to="article">
+            <button className="mt-6 px-8 py-3 bg-yellow-500 text-white rounded-md hover:bg-yellow-600 font-montserrat">
+              Learn More
+            </button>
+          </Link>
         </div>
       </section>
 
