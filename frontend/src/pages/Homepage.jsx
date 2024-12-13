@@ -5,13 +5,13 @@ const Homepage = () => {
     <div>
       {/* Hero Section */}
       <section
-        className="bg-cover bg-center text-left py-36"
+        className="bg-cover bg-center text-left py-40"
         style={{
           backgroundImage: 'url("/src/assets/cover_bg.jpg")', // Ubah path sesuai dengan image Anda
         }}
       >
         <div className="container mx-auto px-8">
-          <h1 className="text-4xl font-extrabold font-montserrat text-green-500">
+          <h1 className="text-4xl font-extrabold font-montserrat text-green-600">
             Welcome to HidroAkuaponik
           </h1>
           <p className="mt-4 text-lg text-white font-montserrat font-medium">
@@ -19,7 +19,7 @@ const Homepage = () => {
             pada teknologi budidaya pertanian berkelanjutan yang menggabungkan
             hidroponik dan akuaponik
           </p>
-          <button className="mt-6 px-8 py-3 bg-green-600 text-white rounded-md hover:bg-green-500 font-montserrat">
+          <button className="mt-6 px-8 py-3 bg-yellow-500 text-white rounded-md hover:bg-yellow-600 font-montserrat">
             Learn More
           </button>
         </div>
@@ -62,7 +62,7 @@ const Homepage = () => {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Card 1 */}
-            <div className="max-w-sm bg-green-500 text-white rounded-lg overflow-hidden shadow-md">
+            <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
               <img
                 className="w-full h-48 object-cover"
                 src="/src/assets/card_img.jpg"
@@ -76,14 +76,14 @@ const Homepage = () => {
                   Belajar Menanam di kota sangat cocok untuk mengurangi polusi
                   kota
                 </p>
-                <button className="mt-4 px-4 py-2 bg-blue-600 text-white text-sm rounded-md hover:bg-blue-500">
+                <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
                   Read more →
                 </button>
               </div>
             </div>
 
             {/* Card 2 */}
-            <div className="max-w-sm bg-green-500 text-white rounded-lg overflow-hidden shadow-md">
+            <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
               <img
                 className="w-full h-48 object-cover"
                 src="/src/assets/card_img2.jpg"
@@ -97,14 +97,14 @@ const Homepage = () => {
                   Discover the best tips for starting your own garden in urban
                   settings.
                 </p>
-                <button className="mt-4 px-4 py-2 bg-blue-600 text-white text-sm rounded-md hover:bg-blue-500">
+                <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
                   Read more →
                 </button>
               </div>
             </div>
 
             {/* Card 3 */}
-            <div className="max-w-sm bg-green-500 text-white rounded-lg overflow-hidden shadow-md">
+            <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
               <img
                 className="w-full h-48 object-cover"
                 src="/src/assets/card_img3.jpg"
@@ -117,7 +117,7 @@ const Homepage = () => {
                 <p className="mt-2 text-sm text-gray-800 font-medium">
                   Learn how to effectively manage and grow plants at home.
                 </p>
-                <button className="mt-4 px-4 py-2 bg-blue-600 text-white text-sm rounded-md hover:bg-blue-500">
+                <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
                   Read more →
                 </button>
               </div>
