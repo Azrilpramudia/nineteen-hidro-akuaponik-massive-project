@@ -1,117 +1,167 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-green-900">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-            <a href="#" className="flex items-center">
-              <img
-                src="/src/assets/nav_logo.png"
-                className="h-12 me-3"
-                alt="FlowBite Logo"
+    <footer className="bg-green-800 text-white py-16">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-wrap justify-between">
+          {/* Logo and Email Input */}
+          <div className="w-full md:w-1/4 mb-8 md:mb-0">
+            <div className="text-white text-2xl font-montserrat font-semibold mb-4">
+              HidroAkuaponik
+            </div>
+            <div className="flex items-center space-x-2">
+              <input
+                type="email"
+                placeholder="Enter Your Email"
+                className="bg-white text-gray-400 px-4 py-2 rounded focus:outline-none w-full md:w-auto"
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                HidroAkuaponik
-              </span>
-            </a>
+              <button className="bg-purple-600 text-white px-4 py-2 rounded">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path d="M2.003 5.884L10 10.882l7.997-4.998a1 1 0 00-.495-1.847H2.499a1 1 0 00-.495 1.847z" />
+                  <path d="M18 8.118v6.764a1 1 0 01-1.447.894L10 11.618l-6.553 4.158A1 1 0 012 15.882V9.118a1 1 0 011.447-.894L10 11.618l6.553-4.158A1 1 0 0118 8.118z" />
+                </svg>
+              </button>
+            </div>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Resources
-              </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    HidroAkuaponik
-                  </a>
+
+          {/* Links */}
+          <div className="w-full md:w-3/4 flex flex-wrap justify-between">
+            <div className="w-full md:w-1/4 mb-4">
+              <h4 className="text-white mb-4">Home</h4>
+              <ul>
+                <li>
+                  <Link to="/" className="hover:text-yellow-500">
+                    Hero Section
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
-                    Tailwind CSS
-                  </a>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Features
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Properties
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Testimonials
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    FAQs
+                  </Link>
                 </li>
               </ul>
             </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Follow us
-              </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-4">
-                  <a
-                    href="https://github.com/themesberg/flowbite"
-                    className="hover:underline "
-                  >
-                    Github
-                  </a>
+            <div className="w-full md:w-1/4 mb-4">
+              <h4 className="text-white mb-4">About Us</h4>
+              <ul>
+                <li>
+                  <Link to="/about" className="hover:text-yellow-500">
+                    Our Story
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
-                    className="hover:underline"
-                  >
-                    Discord
-                  </a>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Our Works
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    How It Works
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Our Team
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Our Clients
+                  </Link>
                 </li>
               </ul>
             </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Legal
-              </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Privacy Policy
-                  </a>
+            <div className="w-full md:w-1/4 mb-4">
+              <h4 className="text-white mb-4">Services</h4>
+              <ul>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Valuation Mastery
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
-                    Terms &amp; Conditions
-                  </a>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Strategic Marketing
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Negotiation Wizardry
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Closing Success
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Property Management
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="w-full md:w-1/4 mb-4">
+              <h4 className="text-white mb-4">Contact Us</h4>
+              <ul>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Contact Form
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="hover:text-yellow-500">
+                    Our Offices
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2024{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
-              HidroAkuaponik™
+
+        {/* Copyright and Social Media */}
+        <div className="flex justify-between items-center border-t border-white pt-4 mt-8">
+          <p className="text-white">
+            ©2024 HidroAkuaponik. All Rights Reserved.{" "}
+            <Link to="#" className="hover:text-white">
+              Terms & Conditions
+            </Link>
+          </p>
+          <div className="flex space-x-4">
+            <a href="#" className="hover:text-yellow-500">
+              <i className="fab fa-facebook"></i>
             </a>
-            . All Rights Reserved.
-          </span>
-          <div className="flex mt-4 sm:justify-center sm:mt-0">
-            {/* Add social media icons here */}
-            {/* Example icon for Facebook */}
-            <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-            >
-              <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 8 19"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span className="sr-only">Facebook page</span>
+            <a href="#" className="hover:text-yellow-500">
+              <i className="fab fa-linkedin"></i>
             </a>
-            {/* Add more social media links here */}
+            <a href="#" className="hover:text-yellow-500">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="#" className="hover:text-yellow-500">
+              <i className="fab fa-youtube"></i>
+            </a>
           </div>
         </div>
       </div>
