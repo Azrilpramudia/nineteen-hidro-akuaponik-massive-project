@@ -48,7 +48,7 @@ const Navbar = () => {
                 Article
               </a>
               <a
-                href="/about"
+                href="/Aboutpage"
                 className="text-gray-800 hover:text-orange-500 px-3 py-2 rounded-md text-lg font-medium"
               >
                 About
@@ -137,7 +137,7 @@ const Navbar = () => {
               <button className="text-gray-800 bg-gray-100 hover:bg-gray-200 block w-full text-left px-3 py-2 rounded-md text-base font-medium">
                 Login
               </button>
-              <button className="bg-blue-600 text-white hover:bg-blue-700 block w-full text-left px-3 py-2 rounded-md text-base font-medium">
+              <button className="bg-green-600 text-white hover:bg-green-700 block w-full text-left px-3 py-2 rounded-md text-base font-medium">
                 Sign Up
               </button>
             </div>
