@@ -65,12 +65,16 @@ const Navbar = () => {
 
           {/* Login/Sign Up Buttons for larger screens */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="text-gray-800 bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded-md text-sm font-bold">
-              Login
-            </button>
-            <button className="bg-green-600 text-white hover:bg-green-700 px-4 py-2 rounded-md text-sm font-bold">
-              Sign Up
-            </button>
+            <Link to="/login">
+              <button className="text-gray-800 bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded-md text-sm font-bold">
+                Login
+              </button>
+            </Link>
+            <Link to="/register">
+              <button className="bg-green-600 text-white hover:bg-green-700 px-4 py-2 rounded-md text-sm font-bold">
+                Sign Up
+              </button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -135,12 +139,16 @@ const Navbar = () => {
               Contact
             </Link>
             <div className="mt-3 space-y-2">
-              <button className="text-gray-800 bg-gray-100 hover:bg-gray-200 block w-full text-left px-3 py-2 rounded-md text-base font-medium">
-                Login
-              </button>
-              <button className="bg-green-600 text-white hover:bg-green-700 block w-full text-left px-3 py-2 rounded-md text-base font-medium">
-                Sign Up
-              </button>
+              <Link to="/login">
+                <button className="text-gray-800 bg-gray-100 hover:bg-gray-200 block w-full text-left px-3 py-2 rounded-md text-base font-medium">
+                  Login
+                </button>
+              </Link>
+              <Link to="register">
+                <button className="bg-green-600 text-white hover:bg-green-700 block w-full text-left px-3 py-2 rounded-md text-base font-medium">
+                  Sign Up
+                </button>
+              </Link>
             </div>
           </div>
         </div>
