@@ -8,7 +8,7 @@ const Homepage = () => {
       <section
         className="bg-cover bg-center text-left py-36"
         style={{
-          backgroundImage: 'url("/cover_bg.jpg")', // Ubah path sesuai dengan image Anda
+          backgroundImage: 'url("cover_bg.jpg")', // Ubah path sesuai dengan image Anda
         }}
       >
         <div className="container mx-auto px-8">
@@ -51,7 +51,7 @@ const Homepage = () => {
           {/* Gambar */}
           <div className="md:w-1/2 mt-8 md:mt-10">
             <img
-              src="/src/assets/farming_bg.jpg"
+              src="src/assets/farming_bg.jpg"
               alt="About Us"
               className="w-full h-auto"
             />
@@ -70,7 +70,7 @@ const Homepage = () => {
             <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
               <img
                 className="w-full h-48 object-cover"
-                src="/src/assets/card_img.jpg"
+                src="src/assets/card_img.jpg"
                 alt="Card image"
               />
               <div className="p-4">
@@ -93,7 +93,7 @@ const Homepage = () => {
             <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
               <img
                 className="w-full h-48 object-cover"
-                src="/src/assets/card_img2.jpg"
+                src="src/assets/card_img2.jpg"
                 alt="Card image"
               />
               <div className="p-4">
@@ -114,7 +114,7 @@ const Homepage = () => {
             <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
               <img
                 className="w-full h-48 object-cover"
-                src="/src/assets/card_img3.jpg"
+                src="src/assets/card_img3.jpg"
                 alt="Card image"
               />
               <div className="p-4">

@@ -21,7 +21,7 @@ const Aboutpage = () => {
         {/* Gambar */}
         <div className="md:w-1/2 mt-8 md:mt-10">
           <img
-            src="/src/assets/farming_bg.jpg"
+            src="src/assets/farming_bg.jpg"
             alt="About Us"
             className="w-full h-auto"
           />

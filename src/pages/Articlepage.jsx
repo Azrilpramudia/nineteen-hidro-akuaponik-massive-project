@@ -12,7 +12,7 @@ const Articlepage = () => {
           <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
             <img
               className="w-full h-48 object-cover"
-              src="/src/assets/card_img.jpg"
+              src="src/assets/card_img.jpg"
               alt="Card image"
             />
             <div className="p-4">
@@ -33,7 +33,7 @@ const Articlepage = () => {
           <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
             <img
               className="w-full h-48 object-cover"
-              src="/src/assets/card_img2.jpg"
+              src="src/assets/card_img2.jpg"
               alt="Card image"
             />
             <div className="p-4">
@@ -53,7 +53,7 @@ const Articlepage = () => {
           <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
             <img
               className="w-full h-48 object-cover"
-              src="/src/assets/card_img3.jpg"
+              src="src/assets/card_img3.jpg"
               alt="Card image"
             />
             <div className="p-4">
@@ -74,7 +74,7 @@ const Articlepage = () => {
           <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
             <img
               className="w-full h-48 object-cover"
-              src="/src/assets/card_img3.jpg"
+              src="src/assets/card_img3.jpg"
               alt="Card image"
             />
             <div className="p-4">
@@ -95,7 +95,7 @@ const Articlepage = () => {
           <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
             <img
               className="w-full h-48 object-cover"
-              src="/src/assets/card_img3.jpg"
+              src="src/assets/card_img3.jpg"
               alt="Card image"
             />
             <div className="p-4">
@@ -116,7 +116,7 @@ const Articlepage = () => {
           <div className="max-w-sm bg-green-600 text-white rounded-lg overflow-hidden shadow-md">
             <img
               className="w-full h-48 object-cover"
-              src="/src/assets/card_img3.jpg"
+              src="src/assets/card_img3.jpg"
               alt="Card image"
             />
             <div className="p-4">
