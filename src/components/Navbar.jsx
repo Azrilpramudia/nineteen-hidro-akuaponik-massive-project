@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link to="/" className="flex items-center">
               {/* Add your logo image here */}
               <img
-                src="src/assets/nav_logo.png"
+                src="/nav_logo.png"
                 alt="Brand Logo"
                 className="h-10 w-10 object-cover"
               />
