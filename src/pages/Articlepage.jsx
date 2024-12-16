@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Articlepage = () => {
   return (
@@ -23,9 +24,11 @@ const Articlepage = () => {
                 Belajar Menanam di kota sangat cocok untuk mengurangi polusi
                 kota
               </p>
-              <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
-                Read more →
-              </button>
+              <Link to="/learnplant">
+                <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
+                  Read more →
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -43,9 +46,11 @@ const Articlepage = () => {
               <p className="mt-2 text-sm text-gray-800 font-medium">
                 Tips Berkebun untuk pemula dengan perawatan tanaman dengan baik
               </p>
-              <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
-                Read more →
-              </button>
+              <Link to="/article2">
+                <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
+                  Read more →
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -64,9 +69,11 @@ const Articlepage = () => {
                 belajar cara mengelola tanaman di halaman rumah dengan baik dan
                 benar
               </p>
-              <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
-                Read more →
-              </button>
+              <Link to="/article3">
+                <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
+                  Read more →
+                </button>
+              </Link>
             </div>
           </div>
 
