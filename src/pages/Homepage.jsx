@@ -1,5 +1,69 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+
+const teamMembers = [
+  {
+    name: "Bonnie Green",
+    title: "CEO/Co-founder",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
+    social: {
+      twitter: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Helene Engels",
+    title: "CTO/Co-founder",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png",
+    social: {
+      twitter: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Jese Leos",
+    title: "SEO & Marketing",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
+    social: {
+      twitter: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Joseph Mcfall",
+    title: "Sales",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+    social: {
+      twitter: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Lana Byrd",
+    title: "Web Designer",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/lana-byrd.png",
+    social: {
+      twitter: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Leslie Livingston",
+    title: "Graphic Designer",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/leslie-livingston.png",
+    social: {
+      twitter: "#",
+      linkedin: "#",
+      github: "#",
+    },
+  },
+];
 
 const Homepage = () => {
   return (
@@ -168,6 +232,54 @@ const Homepage = () => {
                 and productivity.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Teams Section */}
+      <section className="bg-green-50 text-gray-700 py-16">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-montserrat font-bold text-center text-green-600">
+            Our Team
+          </h2>
+          <p className="text-gray-700 font-montserrat font-medium mb-12">
+            Team yang berkontibusi pada pembuatan website ini
+          </p>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-8">
+            {teamMembers.map((member, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <img
+                  className="w-24 h-24 rounded-full mb-4"
+                  src={member.img}
+                  alt={member.name}
+                />
+                <h3 className="font-bold font-montserrat">{member.name}</h3>
+                <p className="text-sm text-gray-700 font-medium">
+                  {member.title}
+                </p>
+                <div className="flex space-x-3 mt-4">
+                  <a
+                    href={member.social.twitter}
+                    className="text-gray-500 hover:text-green-600"
+                  >
+                    <FaTwitter />
+                  </a>
+                  <a
+                    href={member.social.linkedin}
+                    className="text-gray-500 hover:text-green-600"
+                  >
+                    <FaLinkedin />
+                  </a>
+                  <a
+                    href={member.social.github}
+                    className="text-gray-500 hover:text-green-600"
+                  >
+                    <FaGithub />
+                  </a>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
