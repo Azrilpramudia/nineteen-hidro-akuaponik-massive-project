@@ -13,6 +13,8 @@ import Register from "./components/Register";
 
 //Import Article Web
 import LearnPlant from "./Article/LearnPlant";
+import Article2 from "./Article/Article2";
+import Article3 from "./Article/Article3";
 
 function App() {
   return (
@@ -30,6 +32,10 @@ function App() {
 
         {/* Router Secondary */}
         <Route path="/learnplant" element={<LearnPlant />} />
+        <Route path="/article2" element={<Article2 />} />
+        <Route path="/article3" element={<Article3 />} />
+
+        {/* Router Article Section */}
       </Routes>
       <Footer />
     </>

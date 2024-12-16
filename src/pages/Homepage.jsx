@@ -168,9 +168,11 @@ const Homepage = () => {
                   Tips Berkebun untuk pemula dengan perawatan tanaman dengan
                   baik
                 </p>
-                <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
-                  Read more →
-                </button>
+                <Link to="article2">
+                  <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
+                    Read more →
+                  </button>
+                </Link>
               </div>
             </div>
 
@@ -189,9 +191,11 @@ const Homepage = () => {
                   belajar cara mengelola tanaman di halaman rumah dengan baik
                   dan benar
                 </p>
-                <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
-                  Read more →
-                </button>
+                <Link to="article3">
+                  <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
+                    Read more →
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
