@@ -207,29 +207,29 @@ const Homepage = () => {
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white shadow-lg rounded-lg p-6 text-center">
               <h3 className="text-2xl font-bold text-green-600">
-                Sustainable Farming Solutions
+                Solusi Pertanian Berkelanjutan
               </h3>
               <p className="mt-4 text-gray-700">
-                We provide innovative solutions to improve crop yields while
-                promoting sustainability.
+                Kami menyediakan solusi inovatif untuk meningkatkan hasil panen
+                sambil mempromosikan keberlanjutan.
               </p>
             </div>
             <div className="bg-white shadow-lg rounded-lg p-6 text-center">
               <h3 className="text-2xl font-bold text-green-600">
-                Consulting & Training
+                Konsultasi & Pelatihan
               </h3>
               <p className="mt-4 text-gray-700">
-                Our expert consultants offer personalized advice and training to
-                farmers.
+                Konsultan ahli kami menawarkan saran dan pelatihan yang
+                dipersonalisasi kepada petani.
               </p>
             </div>
             <div className="bg-white shadow-lg rounded-lg p-6 text-center">
               <h3 className="text-2xl font-bold text-green-600">
-                Technology Integration
+                Integrasi Teknologi
               </h3>
               <p className="mt-4 text-gray-700">
-                We help integrate cutting-edge technology to increase efficiency
-                and productivity.
+                Kami membantu mengintegrasikan teknologi mutakhir untuk
+                meningkatkan efisiensi dan produktivitas.
               </p>
             </div>
           </div>
