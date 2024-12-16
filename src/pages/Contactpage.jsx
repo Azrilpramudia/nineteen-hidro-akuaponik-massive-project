@@ -23,9 +23,12 @@ const Contactpage = () => {
   return (
     <section className="bg-green-50 text-gray-700 py-16">
       <div className="container mx-auto text-center max-w-xl">
+        <h2 className="text-3xl font-montserrat font-bold text-green-600 mb-4">
+          Contact
+        </h2>
         <p className="text-gray-700 mb-12">
-          Got a technical issue? Want to send feedback about a beta feature?
-          Need details about our Business plan? Let us know.
+          Ada masalah teknis? Ingin mengirim umpan balik tentang fitur beta?
+          Butuh detail tentang paket Bisnis kami? Beri tahu kami.
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-6">
