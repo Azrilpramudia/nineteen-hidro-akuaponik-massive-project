@@ -1,6 +1,6 @@
 import React from "react";
 
-const LearnPlant = () => {
+const Article4 = () => {
   return (
     <section
       className="bg-cover bg-center text-left py-36"
@@ -10,13 +10,13 @@ const LearnPlant = () => {
     >
       <div className="container mx-auto max-w-4xl bg-green-50 p-8 shadow-lg rounded-lg">
         <h1 className="text-4xl font-bold font-montserrat text-gray-900 mb-6">
-          Belajar Menanam di Kawasan Kota
+          Cara Memetik Sayuran
         </h1>
 
         {/* Image Section */}
         <img
-          src="card_img.jpg" // Replace this with the actual path to your image
-          alt="Urban Gardening"
+          src="card_img4.jpg" // Replace this with the actual path to your image
+          alt="Cara Memetik Sayuran"
           className="w-full h-auto mb-6 rounded-lg shadow-md"
         />
 
@@ -160,4 +160,4 @@ const LearnPlant = () => {
   );
 };
 
-export default LearnPlant;
+export default Article4;

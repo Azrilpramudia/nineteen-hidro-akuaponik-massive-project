@@ -10,7 +10,7 @@ const Article2 = () => {
     >
       <div className="container mx-auto max-w-4xl bg-green-50 p-8 shadow-lg rounded-lg">
         <h1 className="text-4xl font-bold font-montserrat text-gray-900 mb-6">
-          Learning to Garden in Urban Areas
+          Tips Bekerbun untuk Pemula
         </h1>
 
         {/* Image Section */}
@@ -21,70 +21,76 @@ const Article2 = () => {
         />
 
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Urban gardening has become a popular trend in recent years as more
-          people living in cities are realizing the benefits of growing their
-          own food. Whether you&apos;re looking to grow fresh vegetables, herbs,
-          or just want to bring a touch of nature to your urban dwelling,
-          learning to garden in the city is both rewarding and practical.
+          Berkebun di perkotaan telah menjadi tren populer dalam beberapa tahun
+          terakhir karena semakin banyak orang yang tinggal di kota menyadari
+          manfaat menanam makanan mereka sendiri. Apakah Anda&apos;Jika Anda
+          ingin menanam sayuran segar, rempah-rempah, atau sekadar ingin
+          menghadirkan sentuhan alam ke dalam hunian perkotaan Anda, belajar
+          berkebun di kota merupakan kegiatan yang bermanfaat dan praktis.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Why Garden in the City?
+          Mengapa Berkebun di Kota?
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Gardening in urban areas offers numerous benefits. It allows you to
-          reconnect with nature, even in the middle of a concrete jungle. You
-          can grow fresh, organic food right on your balcony, rooftop, or in a
-          small backyard. Urban gardening can also help reduce your carbon
-          footprint by reducing the need for transportation of food.
+          Berkebun di daerah perkotaan menawarkan banyak manfaat. Berkebun
+          memungkinkan Anda untuk terhubung kembali dengan alam, bahkan di
+          tengah hutan beton. Anda dapat menanam makanan organik segar tepat di
+          balkon, atap, atau di halaman belakang rumah Anda yang kecil. Berkebun
+          di perkotaan juga dapat membantu mengurangi jejak karbon Anda dengan
+          mengurangi kebutuhan untuk mengangkut makanan.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Getting Started with Urban Gardening
+          Memulai Berkebun di Perkotaan
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-4">
-          Here are some tips for getting started:
+          Berikut beberapa tips untuk memulai:
         </p>
 
         <ol className="list-decimal list-inside text-gray-600 font-montserrat font-medium mb-6 space-y-4">
           <li>
-            <strong>Choose the right space:</strong> Whether you have a small
-            balcony or a sunny window, find a spot that gets enough sunlight
-            (usually 6 hours a day) to start your garden.
+            <strong>Pilih ruang yang tepat:</strong> Baik Anda memiliki balkon
+            kecil atau jendela yang terkena sinar matahari, carilah tempat yang
+            mendapat cukup sinar matahari (biasanya 6 jam sehari) untuk memulai
+            berkebun.
           </li>
           <li>
-            <strong>Select the right plants:</strong> Choose plants that grow
-            well in containers, such as herbs (basil, mint, parsley), leafy
-            greens (lettuce, spinach), and smaller vegetables (tomatoes,
-            peppers).
+            <strong>Pilih tanaman yang tepat:</strong> Pilih tanaman yang tumbuh
+            baik di dalam pot, seperti herba (kemangi, daun mint, peterseli),
+            sayuran berdaun hijau (selada, bayam), dan sayuran berukuran kecil
+            (tomat, paprika).
           </li>
           <li>
-            <strong>Use good quality soil:</strong> Invest in high-quality
-            potting mix or compost to ensure your plants have the nutrients they
-            need.
+            <strong>Gunakan tanah berkualitas baik:</strong> Berinvestasilah
+            pada campuran pot atau kompos berkualitas tinggi untuk memastikan
+            tanaman Anda memiliki nutrisi yang dibutuhkannya. Berinvestasilah
+            pada campuran pot atau kompos berkualitas tinggi untuk memastikan
+            tanaman Anda memiliki nutrisi yang dibutuhkannya.
           </li>
           <li>
-            <strong>Water wisely:</strong> Urban areas often have limited space,
-            so it&apos;s important to water your plants efficiently. Make sure
-            your containers have good drainage and be mindful not to overwater.
+            <strong>Gunakan air dengan bijak:</strong> Daerah perkotaan
+            seringkali memiliki ruang yang terbatas, sehingga&apos;Penting untuk
+            menyiram tanaman secara efisien. Pastikan wadah Anda memiliki
+            drainase yang baik dan jangan menyiram terlalu banyak.
           </li>
         </ol>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Container Gardening
+          Berkebun dalam Wadah
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          One of the best methods for urban gardening is container gardening.
-          You can grow plants in a variety of containers, from pots and window
-          boxes to recycled buckets and tubs. Make sure the containers you
-          choose have drainage holes to prevent water from pooling at the
-          bottom, which can lead to root rot.
+          Salah satu metode terbaik untuk berkebun di kota adalah berkebun dalam
+          wadah. Anda dapat menanam tanaman dalam berbagai wadah, mulai dari pot
+          dan kotak jendela hingga ember dan bak daur ulang. Pastikan wadah yang
+          Anda pilih memiliki lubang drainase untuk mencegah air menggenang di
+          bagian bawah, yang dapat menyebabkan akar membusuk.
         </p>
 
         <div className="aspect-w-16 aspect-h-9 mb-6">
           <iframe
             className="w-full h-full rounded-lg"
-            src="https://youtu.be/6PH32ZV6CYk?si=azwa-OXfRayB1r9Khttps://youtube.com/shorts/oTzyFpVXYmY?si=HxyENufBCGb_wheX"
+            src="https://www.youtube.com/embed/6PH32ZV6CYk?si=Bz5hWNPZk4w4bvJ-"
             title="Urban Gardening Tutorial"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -93,54 +99,61 @@ const Article2 = () => {
         </div>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Vertical Gardening
+          Berkebun Vertikal
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          If you&apos;re short on space, vertical gardening is a great option.
-          You can grow plants upward using trellises, shelves, or hanging
-          baskets. This method works well for climbing plants like beans, peas,
-          and even strawberries.
+          Jika Anda&apos;Jika lahan terbatas, berkebun vertikal adalah pilihan
+          yang tepat. Anda dapat menanam tanaman ke atas menggunakan teralis,
+          rak, atau keranjang gantung. Metode ini cocok untuk tanaman merambat
+          seperti kacang, kacang polong, dan bahkan stroberi.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Rooftop and Community Gardens
+          Taman Atap dan Komunitas
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          If you&apos;re lucky enough to have access to a rooftop, you can turn
-          it into a green oasis. Many cities also have community gardens where
-          you can rent a plot of land to grow your own crops. These options
-          provide more space and allow you to grow a wider variety of plants.
+          Jika anda&apos;Jika Anda cukup beruntung memiliki akses ke atap, Anda
+          dapat mengubahnya menjadi oasis hijau. Banyak kota juga memiliki kebun
+          komunitas tempat Anda dapat menyewa sebidang tanah untuk menanam
+          tanaman Anda sendiri. Pilihan ini menyediakan lebih banyak ruang dan
+          memungkinkan Anda menanam lebih banyak jenis tanaman.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Benefits of Urban Gardening
+          Manfaat Berkebun di Perkotaan
         </h2>
         <ul className="list-disc list-inside text-gray-600 font-medium font-montserrat mb-6 space-y-2">
           <li>
-            Improves mental well-being by reducing stress and promoting
-            relaxation.
+            Meningkatkan kesejahteraan mental dengan mengurangi stres dan
+            meningkatkan relaksasi.
           </li>
-          <li>Provides fresh, organic food and herbs at your fingertips.</li>
           <li>
-            Promotes sustainability by reducing food transportation and waste.
+            Menyediakan makanan organik dan rempah segar di ujung jari Anda.
           </li>
-          <li>Contributes to urban biodiversity and improves air quality.</li>
+          <li>
+            Mempromosikan keberlanjutan dengan mengurangi transportasi dan
+            limbah makanan.
+          </li>
+          <li>
+            Berkontribusi terhadap keanekaragaman hayati perkotaan dan
+            meningkatkan kualitas udara.
+          </li>
         </ul>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Conclusion
+          Kesimpulan
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Learning to garden in urban areas may seem challenging at first, but
-          with the right tools, techniques, and a bit of patience, you can grow
-          a thriving garden, no matter the size of your space. Whether
-          you&apos;re growing vegetables, herbs, or flowers, urban gardening is
-          a rewarding way to reconnect with nature and enjoy the fruits (and
-          vegetables) of your labor.
+          Belajar berkebun di daerah perkotaan mungkin tampak menantang pada
+          awalnya, tetapi dengan alat, teknik, dan sedikit kesabaran yang tepat,
+          Anda dapat menanam kebun yang subur, tidak peduli seberapa besar ruang
+          Anda. Apakah Anda&apos;menanam sayuran, rempah, atau bunga, berkebun
+          di perkotaan merupakan cara yang bermanfaat untuk berhubungan kembali
+          dengan alam dan menikmati buah (dan sayuran) hasil jerih payah Anda.
         </p>
 
         <p className="text-gray-600 font-medium font-montserrat">
-          Happy gardening!
+          Selamat berkebun!
         </p>
       </div>
     </section>
