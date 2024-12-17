@@ -91,9 +91,11 @@ const Articlepage = () => {
               <p className="mt-2 text-sm text-gray-800 font-medium">
                 cara memetik sayuran dengan baik dan benar
               </p>
-              <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
-                Read more →
-              </button>
+              <Link to="/article4">
+                <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
+                  Read more →
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -111,9 +113,11 @@ const Articlepage = () => {
               <p className="mt-2 text-sm text-gray-800 font-medium">
                 Ini dia cara mengelola tanaman dengan bantuan alat teknologi
               </p>
-              <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
-                Read more →
-              </button>
+              <Link to="/article5">
+                <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
+                  Read more →
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -131,9 +135,11 @@ const Articlepage = () => {
               <p className="mt-2 text-sm text-gray-800 font-medium">
                 cara memanen sayuran dengan baik dan benar
               </p>
-              <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
-                Read more →
-              </button>
+              <Link to="/article6">
+                <button className="mt-4 px-4 py-2 bg-yellow-500 text-white text-sm rounded-md hover:bg-yellow-600">
+                  Read more →
+                </button>
+              </Link>
             </div>
           </div>
         </div>

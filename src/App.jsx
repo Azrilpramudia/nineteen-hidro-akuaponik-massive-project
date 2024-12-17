@@ -15,6 +15,9 @@ import Register from "./components/Register";
 import LearnPlant from "./Article/LearnPlant";
 import Article2 from "./Article/Article2";
 import Article3 from "./Article/Article3";
+import Article4 from "./Article/Article4";
+import Article5 from "./Article/Article5";
+import Article6 from "./Article/Article6";
 
 function App() {
   return (
@@ -36,6 +39,9 @@ function App() {
         <Route path="/article3" element={<Article3 />} />
 
         {/* Router Article Section */}
+        <Route path="/article4" element={<Article4 />} />
+        <Route path="/article5" element={<Article5 />} />
+        <Route path="/article6" element={<Article6 />} />
       </Routes>
       <Footer />
     </>
