@@ -48,17 +48,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link to="#" className="hover:text-yellow-500">
-                    Properties
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover:text-yellow-500">
                     Testimonials
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover:text-yellow-500">
-                    FAQs
                   </Link>
                 </li>
               </ul>
@@ -67,28 +57,13 @@ const Footer = () => {
               <h4 className="text-white mb-4">About Us</h4>
               <ul>
                 <li>
-                  <Link to="/about" className="hover:text-yellow-500">
-                    Our Story
-                  </Link>
-                </li>
-                <li>
                   <Link to="#" className="hover:text-yellow-500">
                     Our Works
                   </Link>
                 </li>
                 <li>
                   <Link to="#" className="hover:text-yellow-500">
-                    How It Works
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover:text-yellow-500">
                     Our Team
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover:text-yellow-500">
-                    Our Clients
                   </Link>
                 </li>
               </ul>
@@ -98,27 +73,12 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link to="#" className="hover:text-yellow-500">
-                    Valuation Mastery
+                    Learn
                   </Link>
                 </li>
                 <li>
                   <Link to="#" className="hover:text-yellow-500">
-                    Strategic Marketing
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover:text-yellow-500">
-                    Negotiation Wizardry
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover:text-yellow-500">
-                    Closing Success
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover:text-yellow-500">
-                    Property Management
+                    Learn Plants
                   </Link>
                 </li>
               </ul>
