@@ -14,7 +14,7 @@ const teamMembers = [
     },
   },
   {
-    name: "elisabeth Uli Tambunan",
+    name: "Elisabeth Uli Tambunan",
     title: "Scrum Master",
     img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png",
     social: {
