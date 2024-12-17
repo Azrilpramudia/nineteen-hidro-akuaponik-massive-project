@@ -4,8 +4,8 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const teamMembers = [
   {
-    name: "Bonnie Green",
-    title: "CEO/Co-founder",
+    name: "Adinda Muhammad Sukamto",
+    title: "Hustler",
     img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
     social: {
       twitter: "#",
@@ -14,8 +14,8 @@ const teamMembers = [
     },
   },
   {
-    name: "Helene Engels",
-    title: "CTO/Co-founder",
+    name: "elisabeth Uli Tambunan",
+    title: "Scrum Master",
     img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png",
     social: {
       twitter: "#",
@@ -24,8 +24,8 @@ const teamMembers = [
     },
   },
   {
-    name: "Jese Leos",
-    title: "SEO & Marketing",
+    name: "Muhammad Aditya Pratama",
+    title: "Hipster",
     img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
     social: {
       twitter: "#",
@@ -34,8 +34,8 @@ const teamMembers = [
     },
   },
   {
-    name: "Joseph Mcfall",
-    title: "Sales",
+    name: "Sabrina Pertiwi",
+    title: "Hipster",
     img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
     social: {
       twitter: "#",
@@ -44,8 +44,8 @@ const teamMembers = [
     },
   },
   {
-    name: "Lana Byrd",
-    title: "Web Designer",
+    name: "Azril Pramudia Anugrah",
+    title: "Hacker",
     img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/lana-byrd.png",
     social: {
       twitter: "#",
@@ -54,8 +54,8 @@ const teamMembers = [
     },
   },
   {
-    name: "Leslie Livingston",
-    title: "Graphic Designer",
+    name: "Muhammad Amirul Islah",
+    title: "Hacker",
     img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/leslie-livingston.png",
     social: {
       twitter: "#",
