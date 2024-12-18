@@ -10,88 +10,72 @@ const Article5 = () => {
     >
       <div className="container mx-auto max-w-4xl bg-green-50 p-8 shadow-lg rounded-lg">
         <h1 className="text-4xl font-bold font-montserrat text-gray-900 mb-6">
-          Mengelola Tanaman dengan Teknologi
+          Cara Panen Sayuran dengan Bantuan Alat
         </h1>
 
         {/* Image Section */}
         <img
           src="card_img5.jpg" // Replace this with the actual path to your image
-          alt="Urban Gardening"
+          alt="Panen Sayuran"
           className="w-full h-auto mb-6 rounded-lg shadow-md"
         />
 
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Berkebun di perkotaan telah menjadi tren populer dalam beberapa tahun
-          terakhir karena semakin banyak orang yang tinggal di kota menyadari
-          manfaat menanam makanan mereka sendiri. Apakah Anda&apos;Jika Anda
-          ingin menanam sayuran segar, rempah-rempah, atau sekadar ingin
-          menghadirkan sentuhan alam ke dalam hunian perkotaan Anda, belajar
-          berkebun di kota merupakan kegiatan yang bermanfaat dan praktis.
+          Panen sayuran merupakan salah satu langkah penting dalam proses bercocok tanam. Dengan menggunakan alat yang tepat, panen dapat dilakukan dengan lebih cepat, efisien, dan menjaga kualitas hasil panen. Artikel ini akan membahas cara-cara memanen sayuran menggunakan berbagai alat yang tersedia.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Mengapa Berkebun di Kota?
+          Mengapa Menggunakan Alat untuk Panen?
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Berkebun di daerah perkotaan menawarkan banyak manfaat. Berkebun
-          memungkinkan Anda untuk terhubung kembali dengan alam, bahkan di
-          tengah hutan beton. Anda dapat menanam makanan organik segar tepat di
-          balkon, atap, atau di halaman belakang rumah Anda yang kecil. Berkebun
-          di perkotaan juga dapat membantu mengurangi jejak karbon Anda dengan
-          mengurangi kebutuhan untuk mengangkut makanan.
+          Menggunakan alat panen membantu mengurangi kerusakan tanaman, mempercepat proses panen, dan meningkatkan hasil panen yang berkualitas. Alat yang tepat juga dapat membantu menjaga kondisi fisik petani dengan mengurangi beban kerja yang berlebihan.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Memulai Berkebun di Perkotaan
+          Alat yang Digunakan untuk Memanen Sayuran
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-4">
-          Berikut beberapa tips untuk memulai:
+          Berikut adalah beberapa alat yang umum digunakan untuk memanen sayuran:
         </p>
 
-        <ol className="list-decimal list-inside text-gray-600 font-montserrat font-medium mb-6 space-y-4">
+        <ul className="list-disc list-inside text-gray-600 font-montserrat font-medium mb-6 space-y-4">
           <li>
-            <strong>Pilih ruang yang tepat:</strong> Baik Anda memiliki balkon
-            kecil atau jendela yang terkena sinar matahari, carilah tempat yang
-            mendapat cukup sinar matahari (biasanya 6 jam sehari) untuk memulai
-            berkebun.
+            <strong>Gunting atau Pisau Panen:</strong> Alat ini digunakan untuk memotong batang atau daun dengan presisi, cocok untuk sayuran seperti selada, bayam, atau kangkung.
           </li>
           <li>
-            <strong>Pilih tanaman yang tepat:</strong> Pilih tanaman yang tumbuh
-            baik di dalam pot, seperti herba (kemangi, daun mint, peterseli),
-            sayuran berdaun hijau (selada, bayam), dan sayuran berukuran kecil
-            (tomat, paprika).
+            <strong>Sabit Kecil:</strong> Ideal untuk memanen sayuran berdaun lebar atau tanaman dengan batang yang lebih besar seperti sawi atau brokoli.
           </li>
           <li>
-            <strong>Gunakan tanah berkualitas baik:</strong> Berinvestasilah
-            pada campuran pot atau kompos berkualitas tinggi untuk memastikan
-            tanaman Anda memiliki nutrisi yang dibutuhkannya. Berinvestasilah
-            pada campuran pot atau kompos berkualitas tinggi untuk memastikan
-            tanaman Anda memiliki nutrisi yang dibutuhkannya.
+            <strong>Keranjang Panen:</strong> Digunakan untuk mengumpulkan hasil panen dengan hati-hati agar tidak mudah rusak.
           </li>
           <li>
-            <strong>Gunakan air dengan bijak:</strong> Daerah perkotaan
-            seringkali memiliki ruang yang terbatas, sehingga&apos;Penting untuk
-            menyiram tanaman secara efisien. Pastikan wadah Anda memiliki
-            drainase yang baik dan jangan menyiram terlalu banyak.
+            <strong>Alat Pemotong Elektrik:</strong> Cocok untuk panen dalam skala besar, terutama pada sayuran seperti kale atau kubis.
           </li>
-        </ol>
+        </ul>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Berkebun dalam Wadah
+          Tips Memanen dengan Bantuan Alat
         </h2>
-        <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Salah satu metode terbaik untuk berkebun di kota adalah berkebun dalam
-          wadah. Anda dapat menanam tanaman dalam berbagai wadah, mulai dari pot
-          dan kotak jendela hingga ember dan bak daur ulang. Pastikan wadah yang
-          Anda pilih memiliki lubang drainase untuk mencegah air menggenang di
-          bagian bawah, yang dapat menyebabkan akar membusuk.
-        </p>
+        <ol className="list-decimal list-inside text-gray-600 font-montserrat font-medium mb-6 space-y-4">
+          <li>
+            <strong>Pilih Waktu yang Tepat:</strong> Panen dilakukan pada pagi hari saat suhu masih sejuk untuk menjaga kesegaran sayuran.
+          </li>
+          <li>
+            <strong>Gunakan Alat yang Bersih:</strong> Pastikan alat panen telah dibersihkan untuk menghindari kontaminasi pada sayuran.
+          </li>
+          <li>
+            <strong>Potong dengan Hati-hati:</strong> Hindari menarik atau merobek tanaman karena dapat merusak bagian yang tidak dipanen.
+          </li>
+          <li>
+            <strong>Pisahkan Hasil Panen:</strong> Gunakan keranjang terpisah untuk sayuran yang mudah rusak dan yang lebih tahan banting.
+          </li>
+        </ol>
 
         <div className="aspect-w-16 aspect-h-9 mb-6">
           <iframe
             className="w-full h-full rounded-lg"
-            src="https://www.youtube.com/embed/6PH32ZV6CYk?si=Bz5hWNPZk4w4bvJ-"
-            title="Belajar Menanam di Kawasan Kota"
+            src="https://www.youtube.com/embed/oHS_QJGvBsY?si=lQra0uv6lYlA7w1P"
+            title="Cara Panen Sayuran dengan Alat"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -99,61 +83,21 @@ const Article5 = () => {
         </div>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Berkebun Vertikal
+          Manfaat Panen dengan Alat Modern
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Jika Anda&apos;Jika lahan terbatas, berkebun vertikal adalah pilihan
-          yang tepat. Anda dapat menanam tanaman ke atas menggunakan teralis,
-          rak, atau keranjang gantung. Metode ini cocok untuk tanaman merambat
-          seperti kacang, kacang polong, dan bahkan stroberi.
+          Dengan bantuan alat modern, panen dapat dilakukan dengan lebih efisien dan menghasilkan sayuran berkualitas tinggi. Alat modern juga meminimalkan tenaga kerja manual yang berat, memungkinkan petani untuk memanen dalam jumlah besar tanpa mengorbankan kualitas.
         </p>
-
-        <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Taman Atap dan Komunitas
-        </h2>
-        <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Jika anda&apos;Jika Anda cukup beruntung memiliki akses ke atap, Anda
-          dapat mengubahnya menjadi oasis hijau. Banyak kota juga memiliki kebun
-          komunitas tempat Anda dapat menyewa sebidang tanah untuk menanam
-          tanaman Anda sendiri. Pilihan ini menyediakan lebih banyak ruang dan
-          memungkinkan Anda menanam lebih banyak jenis tanaman.
-        </p>
-
-        <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Manfaat Berkebun di Perkotaan
-        </h2>
-        <ul className="list-disc list-inside text-gray-600 font-medium font-montserrat mb-6 space-y-2">
-          <li>
-            Meningkatkan kesejahteraan mental dengan mengurangi stres dan
-            meningkatkan relaksasi.
-          </li>
-          <li>
-            Menyediakan makanan organik dan rempah segar di ujung jari Anda.
-          </li>
-          <li>
-            Mempromosikan keberlanjutan dengan mengurangi transportasi dan
-            limbah makanan.
-          </li>
-          <li>
-            Berkontribusi terhadap keanekaragaman hayati perkotaan dan
-            meningkatkan kualitas udara.
-          </li>
-        </ul>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
           Kesimpulan
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Belajar berkebun di daerah perkotaan mungkin tampak menantang pada
-          awalnya, tetapi dengan alat, teknik, dan sedikit kesabaran yang tepat,
-          Anda dapat menanam kebun yang subur, tidak peduli seberapa besar ruang
-          Anda. Apakah Anda&apos;menanam sayuran, rempah, atau bunga, berkebun
-          di perkotaan merupakan cara yang bermanfaat untuk berhubungan kembali
-          dengan alam dan menikmati buah (dan sayuran) hasil jerih payah Anda.
+          Menggunakan alat untuk memanen sayuran adalah langkah yang cerdas untuk meningkatkan efisiensi dan kualitas hasil panen. Dengan alat yang tepat, Anda dapat memastikan bahwa proses panen berjalan lancar dan hasil panen tetap segar. Selamat memanen dengan alat modern Anda!
         </p>
 
         <p className="text-gray-600 font-medium font-montserrat">
-          Selamat berkebun!
+          Selamat mencoba!
         </p>
       </div>
     </section>

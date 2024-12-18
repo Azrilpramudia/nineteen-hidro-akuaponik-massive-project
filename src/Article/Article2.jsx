@@ -5,92 +5,84 @@ const Article2 = () => {
     <section
       className="bg-cover bg-center text-left py-36"
       style={{
-        backgroundImage: 'url("cover_bg.jpg")', // Ubah path sesuai dengan image Anda
+        backgroundImage: 'url("cover_bg.jpg")', // Ganti dengan path gambar yang sesuai
       }}
     >
       <div className="container mx-auto max-w-4xl bg-green-50 p-8 shadow-lg rounded-lg">
         <h1 className="text-4xl font-bold font-montserrat text-gray-900 mb-6">
-          Tips Bekerbun untuk Pemula
+          Tips Berkebun untuk Pemula
         </h1>
 
         {/* Image Section */}
         <img
-          src="card_img2.jpg" // Replace this with the actual path to your image
-          alt="Urban Gardening"
+          src="card_img2.jpg" // Ganti dengan path gambar yang sesuai
+          alt="Berkebun untuk Pemula"
           className="w-full h-auto mb-6 rounded-lg shadow-md"
         />
 
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Berkebun di perkotaan telah menjadi tren populer dalam beberapa tahun
-          terakhir karena semakin banyak orang yang tinggal di kota menyadari
-          manfaat menanam makanan mereka sendiri. Apakah Anda&apos;Jika Anda
-          ingin menanam sayuran segar, rempah-rempah, atau sekadar ingin
-          menghadirkan sentuhan alam ke dalam hunian perkotaan Anda, belajar
-          berkebun di kota merupakan kegiatan yang bermanfaat dan praktis.
+          Berkebun adalah aktivitas yang bermanfaat dan menyenangkan, terutama
+          bagi pemula yang ingin mulai menanam tanaman di rumah. Dengan beberapa
+          tips sederhana, Anda bisa mulai berkebun meskipun memiliki ruang yang
+          terbatas.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Mengapa Berkebun di Kota?
+          Mengapa Berkebun Itu Menyenangkan?
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Berkebun di daerah perkotaan menawarkan banyak manfaat. Berkebun
-          memungkinkan Anda untuk terhubung kembali dengan alam, bahkan di
-          tengah hutan beton. Anda dapat menanam makanan organik segar tepat di
-          balkon, atap, atau di halaman belakang rumah Anda yang kecil. Berkebun
-          di perkotaan juga dapat membantu mengurangi jejak karbon Anda dengan
-          mengurangi kebutuhan untuk mengangkut makanan.
+          Berkebun memberikan banyak manfaat, mulai dari mengurangi stres hingga
+          menghasilkan makanan sehat langsung dari kebun Anda. Berkebun juga
+          membantu Anda terhubung dengan alam meskipun tinggal di lingkungan
+          perkotaan.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Memulai Berkebun di Perkotaan
+          Tips Memulai Berkebun untuk Pemula
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-4">
-          Berikut beberapa tips untuk memulai:
+          Berikut adalah beberapa tips untuk memulai berkebun dengan mudah:
         </p>
 
         <ol className="list-decimal list-inside text-gray-600 font-montserrat font-medium mb-6 space-y-4">
           <li>
-            <strong>Pilih ruang yang tepat:</strong> Baik Anda memiliki balkon
-            kecil atau jendela yang terkena sinar matahari, carilah tempat yang
-            mendapat cukup sinar matahari (biasanya 6 jam sehari) untuk memulai
-            berkebun.
+            <strong>Pilih Tanaman yang Mudah Dirawat:</strong> Sebagai pemula,
+            pilih tanaman yang tidak memerlukan banyak perhatian, seperti
+            tanaman hias seperti lidah mertua, tanaman herbal seperti daun mint,
+            atau tanaman sayuran seperti selada dan bayam.
           </li>
           <li>
-            <strong>Pilih tanaman yang tepat:</strong> Pilih tanaman yang tumbuh
-            baik di dalam pot, seperti herba (kemangi, daun mint, peterseli),
-            sayuran berdaun hijau (selada, bayam), dan sayuran berukuran kecil
-            (tomat, paprika).
+            <strong>Pilih Lokasi yang Tepat:</strong> Pastikan tanaman
+            mendapatkan sinar matahari yang cukup. Pilih tempat yang mendapatkan
+            cahaya matahari langsung setidaknya 4-6 jam sehari.
           </li>
           <li>
-            <strong>Gunakan tanah berkualitas baik:</strong> Berinvestasilah
-            pada campuran pot atau kompos berkualitas tinggi untuk memastikan
-            tanaman Anda memiliki nutrisi yang dibutuhkannya. Berinvestasilah
-            pada campuran pot atau kompos berkualitas tinggi untuk memastikan
-            tanaman Anda memiliki nutrisi yang dibutuhkannya.
+            <strong>Gunakan Tanah yang Berkualitas:</strong> Gunakan tanah pot
+            yang baik dan subur agar tanaman Anda dapat tumbuh dengan optimal.
+            Jangan lupa untuk memberi pupuk secara rutin agar tanaman
+            mendapatkan nutrisi yang dibutuhkan.
           </li>
           <li>
-            <strong>Gunakan air dengan bijak:</strong> Daerah perkotaan
-            seringkali memiliki ruang yang terbatas, sehingga&apos;Penting untuk
-            menyiram tanaman secara efisien. Pastikan wadah Anda memiliki
-            drainase yang baik dan jangan menyiram terlalu banyak.
+            <strong>Perhatikan Penyiraman:</strong> Jangan terlalu sering
+            menyiram tanaman. Pastikan tanah tetap lembab, namun tidak tergenang
+            air, yang dapat merusak akar tanaman.
           </li>
         </ol>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Berkebun dalam Wadah
+          Berkebun di Wadah
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Salah satu metode terbaik untuk berkebun di kota adalah berkebun dalam
-          wadah. Anda dapat menanam tanaman dalam berbagai wadah, mulai dari pot
-          dan kotak jendela hingga ember dan bak daur ulang. Pastikan wadah yang
-          Anda pilih memiliki lubang drainase untuk mencegah air menggenang di
-          bagian bawah, yang dapat menyebabkan akar membusuk.
+          Jika Anda memiliki ruang terbatas, berkebun dalam wadah adalah solusi
+          terbaik. Anda bisa menanam berbagai tanaman dalam pot atau kotak
+          jendela. Pastikan wadah memiliki lubang drainase agar air tidak
+          menggenang.
         </p>
 
         <div className="aspect-w-16 aspect-h-9 mb-6">
           <iframe
             className="w-full h-full rounded-lg"
-            src="https://www.youtube.com/embed/6PH32ZV6CYk?si=Bz5hWNPZk4w4bvJ-"
+            src="https://www.youtube.com/embed/W9bdw_YO84Q?si=2tUK8AQWrrkZw5U4"
             title="Urban Gardening Tutorial"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -99,44 +91,20 @@ const Article2 = () => {
         </div>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Berkebun Vertikal
-        </h2>
-        <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Jika Anda&apos;Jika lahan terbatas, berkebun vertikal adalah pilihan
-          yang tepat. Anda dapat menanam tanaman ke atas menggunakan teralis,
-          rak, atau keranjang gantung. Metode ini cocok untuk tanaman merambat
-          seperti kacang, kacang polong, dan bahkan stroberi.
-        </p>
-
-        <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Taman Atap dan Komunitas
-        </h2>
-        <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Jika anda&apos;Jika Anda cukup beruntung memiliki akses ke atap, Anda
-          dapat mengubahnya menjadi oasis hijau. Banyak kota juga memiliki kebun
-          komunitas tempat Anda dapat menyewa sebidang tanah untuk menanam
-          tanaman Anda sendiri. Pilihan ini menyediakan lebih banyak ruang dan
-          memungkinkan Anda menanam lebih banyak jenis tanaman.
-        </p>
-
-        <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Manfaat Berkebun di Perkotaan
+          Manfaat Berkebun untuk Pemula
         </h2>
         <ul className="list-disc list-inside text-gray-600 font-medium font-montserrat mb-6 space-y-2">
           <li>
-            Meningkatkan kesejahteraan mental dengan mengurangi stres dan
-            meningkatkan relaksasi.
+            Meningkatkan kesehatan mental dengan mengurangi stres dan memberikan
+            rasa puas.
           </li>
           <li>
-            Menyediakan makanan organik dan rempah segar di ujung jari Anda.
+            Menyediakan bahan makanan organik segar, seperti sayuran dan rempah,
+            langsung dari kebun Anda.
           </li>
           <li>
-            Mempromosikan keberlanjutan dengan mengurangi transportasi dan
-            limbah makanan.
-          </li>
-          <li>
-            Berkontribusi terhadap keanekaragaman hayati perkotaan dan
-            meningkatkan kualitas udara.
+            Memperindah ruang dengan tanaman hijau dan memberikan sentuhan alami
+            di rumah.
           </li>
         </ul>
 
@@ -144,12 +112,10 @@ const Article2 = () => {
           Kesimpulan
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Belajar berkebun di daerah perkotaan mungkin tampak menantang pada
-          awalnya, tetapi dengan alat, teknik, dan sedikit kesabaran yang tepat,
-          Anda dapat menanam kebun yang subur, tidak peduli seberapa besar ruang
-          Anda. Apakah Anda&apos;menanam sayuran, rempah, atau bunga, berkebun
-          di perkotaan merupakan cara yang bermanfaat untuk berhubungan kembali
-          dengan alam dan menikmati buah (dan sayuran) hasil jerih payah Anda.
+          Berkebun untuk pemula memang membutuhkan beberapa langkah awal, tetapi
+          dengan memilih tanaman yang tepat, perawatan yang sederhana, dan
+          tempat yang cocok, Anda bisa menikmati kebun mini di rumah. Jadikan
+          berkebun sebagai aktivitas yang menyenangkan dan bermanfaat!
         </p>
 
         <p className="text-gray-600 font-medium font-montserrat">

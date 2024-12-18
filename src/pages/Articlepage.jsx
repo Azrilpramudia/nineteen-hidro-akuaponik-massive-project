@@ -108,7 +108,7 @@ const Articlepage = () => {
             />
             <div className="p-4">
               <h2 className="text-xl font-bold font-roboto">
-                Mengelola Tanaman dengan Teknologi
+                Mengelola Tanaman dengan Bantuan Alat
               </h2>
               <p className="mt-2 text-sm text-gray-800 font-medium">
                 Ini dia cara mengelola tanaman dengan bantuan alat teknologi

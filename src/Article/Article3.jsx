@@ -5,7 +5,7 @@ const Article3 = () => {
     <section
       className="bg-cover bg-center text-left py-36"
       style={{
-        backgroundImage: 'url("cover_bg.jpg")', // Ubah path sesuai dengan image Anda
+        backgroundImage: 'url("cover_bg.jpg")', // Ganti dengan path gambar yang sesuai
       }}
     >
       <div className="container mx-auto max-w-4xl bg-green-50 p-8 shadow-lg rounded-lg">
@@ -15,83 +15,52 @@ const Article3 = () => {
 
         {/* Image Section */}
         <img
-          src="card_img3.jpg" // Replace this with the actual path to your image
-          alt="Urban Gardening"
+          src="card_img3.jpg" // Ganti dengan path gambar yang sesuai
+          alt="Mengelola Tanaman di Rumah"
           className="w-full h-auto mb-6 rounded-lg shadow-md"
         />
 
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Berkebun di perkotaan telah menjadi tren populer dalam beberapa tahun
-          terakhir karena semakin banyak orang yang tinggal di kota menyadari
-          manfaat menanam makanan mereka sendiri. Apakah Anda&apos;Jika Anda
-          ingin menanam sayuran segar, rempah-rempah, atau sekadar ingin
-          menghadirkan sentuhan alam ke dalam hunian perkotaan Anda, belajar
-          berkebun di kota merupakan kegiatan yang bermanfaat dan praktis.
+          Memiliki tanaman di rumah tidak hanya mempercantik ruang, tetapi juga membantu meningkatkan kualitas udara dan menciptakan suasana yang lebih menyegarkan. Namun, mengelola tanaman dengan baik membutuhkan perhatian dan perawatan rutin. Berikut adalah beberapa tips untuk mengelola tanaman di rumah dengan efektif.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Mengapa Berkebun di Kota?
+          Mengapa Memiliki Tanaman di Rumah?
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Berkebun di daerah perkotaan menawarkan banyak manfaat. Berkebun
-          memungkinkan Anda untuk terhubung kembali dengan alam, bahkan di
-          tengah hutan beton. Anda dapat menanam makanan organik segar tepat di
-          balkon, atap, atau di halaman belakang rumah Anda yang kecil. Berkebun
-          di perkotaan juga dapat membantu mengurangi jejak karbon Anda dengan
-          mengurangi kebutuhan untuk mengangkut makanan.
+          Tanaman di rumah tidak hanya memberikan manfaat estetika tetapi juga meningkatkan kesejahteraan mental. Mereka dapat membantu mengurangi stres, meningkatkan konsentrasi, dan memperbaiki kualitas udara dengan menyaring polutan.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Memulai Berkebun di Perkotaan
+          Tips Mengelola Tanaman di Rumah
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-4">
-          Berikut beberapa tips untuk memulai:
+          Berikut adalah beberapa tips untuk merawat tanaman di rumah dengan baik:
         </p>
 
         <ol className="list-decimal list-inside text-gray-600 font-montserrat font-medium mb-6 space-y-4">
           <li>
-            <strong>Pilih ruang yang tepat:</strong> Baik Anda memiliki balkon
-            kecil atau jendela yang terkena sinar matahari, carilah tempat yang
-            mendapat cukup sinar matahari (biasanya 6 jam sehari) untuk memulai
-            berkebun.
+            <strong>Pilih Tanaman yang Tepat:</strong> Pilih tanaman yang sesuai dengan kondisi di rumah Anda. Tanaman seperti lidah mertua, aloe vera, atau pothos sangat cocok untuk pemula karena mudah dirawat dan tahan terhadap perubahan suhu.
           </li>
           <li>
-            <strong>Pilih tanaman yang tepat:</strong> Pilih tanaman yang tumbuh
-            baik di dalam pot, seperti herba (kemangi, daun mint, peterseli),
-            sayuran berdaun hijau (selada, bayam), dan sayuran berukuran kecil
-            (tomat, paprika).
+            <strong>Pilih Lokasi yang Tepat:</strong> Tanaman membutuhkan cahaya yang cukup, namun tidak semua tanaman sama. Beberapa tanaman membutuhkan sinar matahari langsung, sementara yang lain lebih cocok di tempat teduh. Pastikan Anda menempatkan tanaman sesuai dengan kebutuhan cahaya mereka.
           </li>
           <li>
-            <strong>Gunakan tanah berkualitas baik:</strong> Berinvestasilah
-            pada campuran pot atau kompos berkualitas tinggi untuk memastikan
-            tanaman Anda memiliki nutrisi yang dibutuhkannya. Berinvestasilah
-            pada campuran pot atau kompos berkualitas tinggi untuk memastikan
-            tanaman Anda memiliki nutrisi yang dibutuhkannya.
+            <strong>Penyiraman yang Tepat:</strong> Salah satu hal yang paling penting dalam merawat tanaman adalah penyiraman yang tepat. Jangan biarkan tanaman Anda terlalu kering atau tergenang air. Gunakan metode penyiraman yang sesuai untuk setiap jenis tanaman.
           </li>
           <li>
-            <strong>Gunakan air dengan bijak:</strong> Daerah perkotaan
-            seringkali memiliki ruang yang terbatas, sehingga&apos;Penting untuk
-            menyiram tanaman secara efisien. Pastikan wadah Anda memiliki
-            drainase yang baik dan jangan menyiram terlalu banyak.
+            <strong>Gunakan Pot dengan Drainase:</strong> Pastikan setiap pot tanaman Anda memiliki lubang drainase untuk mencegah air tergenang. Hal ini membantu mencegah akar membusuk dan memastikan tanaman tumbuh dengan sehat.
+          </li>
+          <li>
+            <strong>Pemupukan Rutin:</strong> Berikan pupuk yang tepat untuk tanaman Anda, terutama selama musim pertumbuhan. Gunakan pupuk organik atau pupuk cair yang dapat memberikan nutrisi yang dibutuhkan tanaman.
           </li>
         </ol>
-
-        <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Berkebun dalam Wadah
-        </h2>
-        <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Salah satu metode terbaik untuk berkebun di kota adalah berkebun dalam
-          wadah. Anda dapat menanam tanaman dalam berbagai wadah, mulai dari pot
-          dan kotak jendela hingga ember dan bak daur ulang. Pastikan wadah yang
-          Anda pilih memiliki lubang drainase untuk mencegah air menggenang di
-          bagian bawah, yang dapat menyebabkan akar membusuk.
-        </p>
 
         <div className="aspect-w-16 aspect-h-9 mb-6">
           <iframe
             className="w-full h-full rounded-lg"
-            src="https://www.youtube.com/embed/6PH32ZV6CYk?si=Bz5hWNPZk4w4bvJ-"
-            title="Urban Gardening Tutorial"
+            src="https://www.youtube.com/embed//IHGNIQYVUV8?si=G2TKxaua1RY9SPAD"
+            title="Belajar Menanam di Kawasan Kota"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -99,61 +68,37 @@ const Article3 = () => {
         </div>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Berkebun Vertikal
+          Menjaga Kesehatan Tanaman
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Jika Anda&apos;Jika lahan terbatas, berkebun vertikal adalah pilihan
-          yang tepat. Anda dapat menanam tanaman ke atas menggunakan teralis,
-          rak, atau keranjang gantung. Metode ini cocok untuk tanaman merambat
-          seperti kacang, kacang polong, dan bahkan stroberi.
+          Untuk menjaga tanaman tetap sehat, penting untuk secara rutin memeriksa tanda-tanda masalah seperti daun yang menguning, serangan hama, atau tanda-tanda penyakit. Jika diperlukan, lakukan perawatan khusus seperti pemangkasan atau penggantian tanah untuk memberikan lingkungan yang optimal bagi tanaman.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Taman Atap dan Komunitas
+          Tanaman Hias di Dalam Rumah
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Jika anda&apos;Jika Anda cukup beruntung memiliki akses ke atap, Anda
-          dapat mengubahnya menjadi oasis hijau. Banyak kota juga memiliki kebun
-          komunitas tempat Anda dapat menyewa sebidang tanah untuk menanam
-          tanaman Anda sendiri. Pilihan ini menyediakan lebih banyak ruang dan
-          memungkinkan Anda menanam lebih banyak jenis tanaman.
+          Tanaman hias tidak hanya meningkatkan tampilan ruangan, tetapi juga memberikan kesan alami yang menenangkan. Anda bisa memilih tanaman dengan berbagai ukuran dan bentuk sesuai dengan desain interior rumah Anda, seperti tanaman gantung atau tanaman meja kecil.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Manfaat Berkebun di Perkotaan
+          Manfaat Mengelola Tanaman di Rumah
         </h2>
         <ul className="list-disc list-inside text-gray-600 font-medium font-montserrat mb-6 space-y-2">
-          <li>
-            Meningkatkan kesejahteraan mental dengan mengurangi stres dan
-            meningkatkan relaksasi.
-          </li>
-          <li>
-            Menyediakan makanan organik dan rempah segar di ujung jari Anda.
-          </li>
-          <li>
-            Mempromosikan keberlanjutan dengan mengurangi transportasi dan
-            limbah makanan.
-          </li>
-          <li>
-            Berkontribusi terhadap keanekaragaman hayati perkotaan dan
-            meningkatkan kualitas udara.
-          </li>
+          <li>Meningkatkan kualitas udara dengan menyerap polutan dan menghasilkan oksigen.</li>
+          <li>Menurunkan stres dan meningkatkan kesehatan mental dengan memberikan suasana yang lebih hijau dan menyegarkan.</li>
+          <li>Menambah keindahan rumah dan menciptakan ruang yang lebih hidup dan asri.</li>
         </ul>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
           Kesimpulan
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Belajar berkebun di daerah perkotaan mungkin tampak menantang pada
-          awalnya, tetapi dengan alat, teknik, dan sedikit kesabaran yang tepat,
-          Anda dapat menanam kebun yang subur, tidak peduli seberapa besar ruang
-          Anda. Apakah Anda&apos;menanam sayuran, rempah, atau bunga, berkebun
-          di perkotaan merupakan cara yang bermanfaat untuk berhubungan kembali
-          dengan alam dan menikmati buah (dan sayuran) hasil jerih payah Anda.
+          Mengelola tanaman di rumah bukan hanya tentang merawat tanaman, tetapi juga tentang menikmati manfaatnya bagi kesehatan dan keindahan rumah Anda. Dengan perawatan yang tepat, tanaman Anda dapat tumbuh subur dan memberikan kebahagiaan bagi Anda sekeluarga.
         </p>
 
         <p className="text-gray-600 font-medium font-montserrat">
-          Selamat berkebun!
+          Selamat merawat tanaman Anda!
         </p>
       </div>
     </section>
