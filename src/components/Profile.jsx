@@ -6,7 +6,7 @@ const teamMembers = [
   {
     name: "Adinda Muhammad Sukamto",
     title: "Hustler",
-    img: "team1_img.jpg",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
     social: {
       twitter: "#",
       linkedin: "#",
@@ -16,7 +16,7 @@ const teamMembers = [
   {
     name: "Elisabeth Uli Tambunan",
     title: "Scrum Master",
-    img: "team6_img.jpg",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png",
     social: {
       twitter: "#",
       linkedin: "#",
@@ -26,7 +26,7 @@ const teamMembers = [
   {
     name: "Muhammad Aditya Pratama",
     title: "Hipster",
-    img: "team3_img.jpg",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
     social: {
       twitter: "#",
       linkedin: "#",
@@ -36,7 +36,7 @@ const teamMembers = [
   {
     name: "Sabrina Pertiwi",
     title: "Hipster",
-    img: "team7_img.jpg",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
     social: {
       twitter: "#",
       linkedin: "#",
@@ -46,7 +46,7 @@ const teamMembers = [
   {
     name: "Azril Pramudia Anugrah",
     title: "Hacker",
-    img: "team4_img.jpg",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/lana-byrd.png",
     social: {
       twitter: "#",
       linkedin: "#",
@@ -56,7 +56,7 @@ const teamMembers = [
   {
     name: "Muhammad Amirul Islah",
     title: "Hacker",
-    img: "team2_img.jpg",
+    img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/leslie-livingston.png",
     social: {
       twitter: "#",
       linkedin: "#",
@@ -86,7 +86,7 @@ const Homepage = () => {
             <br />
             hidroponik dan akuaponik
           </p>
-          <Link to="login">
+          <Link to="article">
             <button className="mt-6 px-8 py-3 bg-yellow-500 text-white rounded-md hover:bg-yellow-600 font-montserrat">
               Learn More
             </button>

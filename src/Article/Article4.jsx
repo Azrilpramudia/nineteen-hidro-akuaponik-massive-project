@@ -1,97 +1,66 @@
 import React from "react";
 
-const Article4 = () => {
+const Article3 = () => {
   return (
     <section
       className="bg-cover bg-center text-left py-36"
       style={{
-        backgroundImage: 'url("cover_bg.jpg")', // Ubah path sesuai dengan image Anda
+        backgroundImage: 'url("cover_bg.jpg")', // Ganti dengan path gambar yang sesuai
       }}
     >
       <div className="container mx-auto max-w-4xl bg-green-50 p-8 shadow-lg rounded-lg">
         <h1 className="text-4xl font-bold font-montserrat text-gray-900 mb-6">
-          Cara Memetik Sayuran
+          Cara Memetik Sayuran dengan Benar
         </h1>
 
         {/* Image Section */}
         <img
-          src="card_img4.jpg" // Replace this with the actual path to your image
+          src="card_img4.jpg" // Ganti dengan path gambar yang sesuai
           alt="Cara Memetik Sayuran"
           className="w-full h-auto mb-6 rounded-lg shadow-md"
         />
 
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Berkebun di perkotaan telah menjadi tren populer dalam beberapa tahun
-          terakhir karena semakin banyak orang yang tinggal di kota menyadari
-          manfaat menanam makanan mereka sendiri. Apakah Anda&apos;Jika Anda
-          ingin menanam sayuran segar, rempah-rempah, atau sekadar ingin
-          menghadirkan sentuhan alam ke dalam hunian perkotaan Anda, belajar
-          berkebun di kota merupakan kegiatan yang bermanfaat dan praktis.
+          Memetik sayuran yang tepat tidak hanya memastikan hasil panen yang optimal tetapi juga menjaga kesehatan tanaman untuk pertumbuhan berikutnya. Berikut adalah panduan lengkap untuk memetik sayuran dengan benar di kebun Anda.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Mengapa Berkebun di Kota?
+          Mengapa Penting Memetik Sayuran dengan Benar?
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Berkebun di daerah perkotaan menawarkan banyak manfaat. Berkebun
-          memungkinkan Anda untuk terhubung kembali dengan alam, bahkan di
-          tengah hutan beton. Anda dapat menanam makanan organik segar tepat di
-          balkon, atap, atau di halaman belakang rumah Anda yang kecil. Berkebun
-          di perkotaan juga dapat membantu mengurangi jejak karbon Anda dengan
-          mengurangi kebutuhan untuk mengangkut makanan.
+          Memetik sayuran dengan cara yang tepat dapat meningkatkan kualitas hasil panen, mencegah kerusakan tanaman, dan memperpanjang masa produktif kebun Anda. Selain itu, cara memetik yang benar juga memastikan rasa dan tekstur sayuran tetap terjaga.
         </p>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Memulai Berkebun di Perkotaan
+          Tips Umum Memetik Sayuran
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-4">
-          Berikut beberapa tips untuk memulai:
+          Berikut adalah beberapa tips penting yang dapat Anda ikuti saat memetik sayuran:
         </p>
 
         <ol className="list-decimal list-inside text-gray-600 font-montserrat font-medium mb-6 space-y-4">
           <li>
-            <strong>Pilih ruang yang tepat:</strong> Baik Anda memiliki balkon
-            kecil atau jendela yang terkena sinar matahari, carilah tempat yang
-            mendapat cukup sinar matahari (biasanya 6 jam sehari) untuk memulai
-            berkebun.
+            <strong>Pilih Waktu yang Tepat:</strong> Memetik sayuran di pagi hari, sebelum matahari terlalu terik, dapat menjaga kesegaran dan kandungan air dalam sayuran.
           </li>
           <li>
-            <strong>Pilih tanaman yang tepat:</strong> Pilih tanaman yang tumbuh
-            baik di dalam pot, seperti herba (kemangi, daun mint, peterseli),
-            sayuran berdaun hijau (selada, bayam), dan sayuran berukuran kecil
-            (tomat, paprika).
+            <strong>Gunakan Alat yang Tepat:</strong> Gunakan gunting kebun atau pisau tajam untuk memetik sayuran. Hindari menarik atau memutar batang, karena dapat merusak tanaman.
           </li>
           <li>
-            <strong>Gunakan tanah berkualitas baik:</strong> Berinvestasilah
-            pada campuran pot atau kompos berkualitas tinggi untuk memastikan
-            tanaman Anda memiliki nutrisi yang dibutuhkannya. Berinvestasilah
-            pada campuran pot atau kompos berkualitas tinggi untuk memastikan
-            tanaman Anda memiliki nutrisi yang dibutuhkannya.
+            <strong>Kenali Tingkat Kematangan:</strong> Pastikan sayuran yang Anda petik sudah matang sempurna. Contohnya, tomat sebaiknya dipetik saat warnanya merah cerah, dan selada saat daunnya segar serta berukuran cukup besar.
           </li>
           <li>
-            <strong>Gunakan air dengan bijak:</strong> Daerah perkotaan
-            seringkali memiliki ruang yang terbatas, sehingga&apos;Penting untuk
-            menyiram tanaman secara efisien. Pastikan wadah Anda memiliki
-            drainase yang baik dan jangan menyiram terlalu banyak.
+            <strong>Hindari Memetik Berlebihan:</strong> Ambil sayuran secukupnya sesuai kebutuhan. Tanaman akan terus menghasilkan jika panen dilakukan secara berkala.
+          </li>
+          <li>
+            <strong>Jaga Kebersihan:</strong> Cuci alat panen sebelum dan sesudah digunakan untuk mencegah penyebaran penyakit tanaman.
           </li>
         </ol>
-
-        <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Berkebun dalam Wadah
-        </h2>
-        <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Salah satu metode terbaik untuk berkebun di kota adalah berkebun dalam
-          wadah. Anda dapat menanam tanaman dalam berbagai wadah, mulai dari pot
-          dan kotak jendela hingga ember dan bak daur ulang. Pastikan wadah yang
-          Anda pilih memiliki lubang drainase untuk mencegah air menggenang di
-          bagian bawah, yang dapat menyebabkan akar membusuk.
-        </p>
 
         <div className="aspect-w-16 aspect-h-9 mb-6">
           <iframe
             className="w-full h-full rounded-lg"
-            src="https://www.youtube.com/embed/6PH32ZV6CYk?si=Bz5hWNPZk4w4bvJ-"
-            title="Belajar Menanam di Kawasan Kota"
+            src="https://www.youtube.com/embed/xMNJgAiiJ5o?si=WIurnjr_mcIbFkHe" // Ganti dengan URL video yang sesuai
+            title="Cara Memetik Sayuran yang Benar"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -99,44 +68,24 @@ const Article4 = () => {
         </div>
 
         <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Berkebun Vertikal
+          Panduan Memetik Sayuran Berdasarkan Jenisnya
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Jika Anda&apos;Jika lahan terbatas, berkebun vertikal adalah pilihan
-          yang tepat. Anda dapat menanam tanaman ke atas menggunakan teralis,
-          rak, atau keranjang gantung. Metode ini cocok untuk tanaman merambat
-          seperti kacang, kacang polong, dan bahkan stroberi.
+          Setiap jenis sayuran memiliki cara panen yang berbeda. Berikut adalah panduan memetik beberapa jenis sayuran:
         </p>
 
-        <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Taman Atap dan Komunitas
-        </h2>
-        <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Jika anda&apos;Jika Anda cukup beruntung memiliki akses ke atap, Anda
-          dapat mengubahnya menjadi oasis hijau. Banyak kota juga memiliki kebun
-          komunitas tempat Anda dapat menyewa sebidang tanah untuk menanam
-          tanaman Anda sendiri. Pilihan ini menyediakan lebih banyak ruang dan
-          memungkinkan Anda menanam lebih banyak jenis tanaman.
-        </p>
-
-        <h2 className="text-2xl font-semibold font-montserrat text-gray-800 mb-4">
-          Manfaat Berkebun di Perkotaan
-        </h2>
-        <ul className="list-disc list-inside text-gray-600 font-medium font-montserrat mb-6 space-y-2">
+        <ul className="list-disc list-inside text-gray-600 font-medium font-montserrat mb-6 space-y-4">
           <li>
-            Meningkatkan kesejahteraan mental dengan mengurangi stres dan
-            meningkatkan relaksasi.
+            <strong>Selada:</strong> Petik daun dari luar terlebih dahulu untuk mendorong pertumbuhan daun baru di tengah.
           </li>
           <li>
-            Menyediakan makanan organik dan rempah segar di ujung jari Anda.
+            <strong>Tomat:</strong> Gunakan gunting untuk memotong tangkai buah dengan lembut. Jangan menarik langsung buah dari tanaman.
           </li>
           <li>
-            Mempromosikan keberlanjutan dengan mengurangi transportasi dan
-            limbah makanan.
+            <strong>Cabai:</strong> Gunakan tangan untuk memetik dengan lembut atau gunting untuk memotong tangkai cabai.
           </li>
           <li>
-            Berkontribusi terhadap keanekaragaman hayati perkotaan dan
-            meningkatkan kualitas udara.
+            <strong>Bayam:</strong> Cabut daun-daun besar di bagian luar, tetapi biarkan batang utama tetap utuh untuk pertumbuhan berikutnya.
           </li>
         </ul>
 
@@ -144,20 +93,15 @@ const Article4 = () => {
           Kesimpulan
         </h2>
         <p className="text-gray-600 font-medium font-montserrat mb-6">
-          Belajar berkebun di daerah perkotaan mungkin tampak menantang pada
-          awalnya, tetapi dengan alat, teknik, dan sedikit kesabaran yang tepat,
-          Anda dapat menanam kebun yang subur, tidak peduli seberapa besar ruang
-          Anda. Apakah Anda&apos;menanam sayuran, rempah, atau bunga, berkebun
-          di perkotaan merupakan cara yang bermanfaat untuk berhubungan kembali
-          dengan alam dan menikmati buah (dan sayuran) hasil jerih payah Anda.
+          Memetik sayuran dengan cara yang tepat tidak hanya memastikan hasil panen yang maksimal, tetapi juga menjaga kesehatan tanaman Anda. Dengan mengikuti panduan ini, Anda dapat menikmati kebun yang subur dan hasil panen yang melimpah.
         </p>
 
         <p className="text-gray-600 font-medium font-montserrat">
-          Selamat berkebun!
+          Selamat memetik sayuran dan menikmati hasilnya!
         </p>
       </div>
     </section>
   );
 };
 
-export default Article4;
+export default Article3;

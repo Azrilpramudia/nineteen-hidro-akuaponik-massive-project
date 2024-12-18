@@ -10,8 +10,9 @@ import Articlepage from "./pages/Articlepage";
 import Contactpage from "./pages/Contactpage";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import Profile from "./components/Profile";
 
-//Import Article Web
+// Import Article Web
 import LearnPlant from "./Article/LearnPlant";
 import Article2 from "./Article/Article2";
 import Article3 from "./Article/Article3";
@@ -32,6 +33,7 @@ function App() {
         <Route path="/contact" element={<Contactpage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/profile" element={<Profile />} />
 
         {/* Router Secondary */}
         <Route path="/learnplant" element={<LearnPlant />} />
@@ -42,6 +44,9 @@ function App() {
         <Route path="/article4" element={<Article4 />} />
         <Route path="/article5" element={<Article5 />} />
         <Route path="/article6" element={<Article6 />} />
+
+        {/* Fallback Route */}
+        <Route path="*" element={<h1>Page Not Found</h1>} /> {/* You can customize this page */}
       </Routes>
       <Footer />
     </>
